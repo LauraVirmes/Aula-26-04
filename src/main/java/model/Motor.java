@@ -5,6 +5,9 @@ public class Motor {
     private String tipo;
     private Double capacidade;
     
+    public Motor(){
+        this("",0.0);
+    }
     public Motor(String tipo,Double capacidade){
         this.tipo = tipo;
         this.capacidade = capacidade;
